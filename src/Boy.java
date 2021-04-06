@@ -4,30 +4,31 @@ public class Boy {
 
     static Random rand = new Random();
 
+    public static String boyName;
+    public static int boyAge;
+    public static String boyLastName;
+
+    public Boy(String name, int age, String lastName) {
+
+        boyName = name;
+        boyAge = age;
+        boyLastName = lastName;
+
+    }
 
     public static String returnName(){
-/*
-    System.out.println(boyName);
-    System.out.println(boyAge);
-    System.out.println(boyLastName);
-*/
 
-    String boyName="BoyRandom";
+        return boyName;
 
-    return boyName;
     }
 
     public static int returnAge(){
-
-        int boyAge = 12;
 
         return boyAge;
 
     }
 
     public static String returnLastName(){
-
-        String boyLastName = "Last Name";
 
         return boyLastName;
 

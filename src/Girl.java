@@ -4,6 +4,19 @@ public class Girl {
 
     static Random rand = new Random();
 
+    public static String girlName;
+    public static int girlAge;
+    public static String girlLastName;
+
+    public Girl(String gName, int gAge, String gLastName){
+
+        girlName = gName;
+        girlAge = gAge;
+        girlLastName = gLastName;
+
+    }
+
+
     /*
     public static String returnName(){
 
@@ -19,16 +32,14 @@ public class Girl {
     } */
 
     public static String returnGirlName(){
-    String girlName="GirlRandom";
 
-    return girlName;
-}
+        return girlName;
+
+    }
 
     public static int returnGirlAge(){
 
-        int boyAge = 12;
-
-        return boyAge;
+        return girlAge;
 
     }
 
