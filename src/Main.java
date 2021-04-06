@@ -12,7 +12,14 @@ public class Main {
         newRela.RandomRelationship();
         */
 
-        System.out.print(newBoy.RandomBoyName()+ " " + newRela.RandomRelationship() + " " + newGirl.RandomGirlname() );
+        //NAME
+        System.out.println("Names: " + newBoy.RandomBoyName() + " and " + newGirl.RandomGirlname());
+        //AGE
+        System.out.println("Age: " + newBoy.returnAge() + " and " + newGirl.returnGirlAge());
+        //LAST NAME
+        System.out.println("Last Names: " + newBoy.returnLastName() + " and " + newGirl.returnGirlLastName());
+
+        System.out.println("Relationship: " + newBoy.RandomBoyName()+ " " + newRela.RandomRelationship() + " " + newGirl.RandomGirlname() );
 
     }
 

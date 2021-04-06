@@ -18,6 +18,28 @@ public class Girl {
         return null;
     } */
 
+    public static String returnGirlName(){
+    String girlName="GirlRandom";
+
+    return girlName;
+}
+
+    public static int returnGirlAge(){
+
+        int boyAge = 12;
+
+        return boyAge;
+
+    }
+
+    public static String returnGirlLastName(){
+
+        String girlLastName = "Last Name";
+
+        return girlLastName;
+
+    }
+
     public static String RandomGirlname(){
         String girlName[] = {"Olivia", "Emma", "Ava", "Sophia", "Isabella"};
         return girlName[rand.nextInt(5)];
