@@ -7,6 +7,7 @@ public class Main {
         Relationship newRela = new Relationship();
 
         getSet gsTest = new getSet();
+        gsTest.setValue(100);
 
         //NAME
         System.out.println("\nNames: " + newBoy.returnName() + " and " + newGirl.returnGirlName());
