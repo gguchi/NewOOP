@@ -4,15 +4,17 @@ public class Girl {
 
     static Random rand = new Random();
 
+    public String girlRace;
     public static String girlName;
     public static int girlAge;
     public static String girlLastName;
 
-    public Girl(String gName, int gAge, String gLastName){
+    public Girl(String gName, int gAge, String gLastName, String fRace){
 
         girlName = gName;
         girlAge = gAge;
         girlLastName = gLastName;
+        girlRace = fRace;
 
     }
 
@@ -30,6 +32,12 @@ public class Girl {
 
         return null;
     } */
+
+    public String returnGirlRace(){
+
+        return girlRace;
+
+    }
 
     public static String returnGirlName(){
 

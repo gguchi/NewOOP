@@ -4,15 +4,23 @@ public class Boy {
 
     static Random rand = new Random();
 
-    public static String boyName;
-    public static int boyAge;
+    String boyRace;
+    private static String boyName;
+    protected static int boyAge;
     public static String boyLastName;
 
-    public Boy(String name, int age, String lastName) {
+    public Boy(String name, int age, String lastName, String mRace) {
 
         boyName = name;
         boyAge = age;
         boyLastName = lastName;
+        boyRace = mRace;
+
+    }
+
+    public String returnRace(){
+
+        return boyRace;
 
     }
 
