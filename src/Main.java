@@ -6,7 +6,7 @@ public class Main {
         Girl newGirl = new Girl("TEST", 27, "LastTEST", "CAUCASIAN");
         Relationship newRela = new Relationship();
 
-        //Boy secondBoy = new Boy();
+        getSet gsTest = new getSet();
 
         //NAME
         System.out.println("\nNames: " + newBoy.returnName() + " and " + newGirl.returnGirlName());
@@ -17,10 +17,11 @@ public class Main {
         //RACE
         System.out.println("RACE:" + newBoy.returnRace() + " " + newGirl.returnGirlRace());
         //RELATIONSHIP
-        System.out.println("\nRelationship: " + newBoy.RandomBoyName()+ " " + newRela.RandomRelationship() + " " + newGirl.RandomGirlname() );
+        System.out.println("Relationship: " + newBoy.RandomBoyName()+ " " + newRela.RandomRelationship() + " " + newGirl.RandomGirlname() );
         //GET / SET TEST
+
         //System.out.println("Boy Name: " + secondBoy.returnSecondName());
-        System.out.println("GETTER SETTER TEST: " + newBoy.returnVariable());
+        System.out.println("\nGETTER SETTER TEST: " + gsTest.getValue());
     }
 
 }
